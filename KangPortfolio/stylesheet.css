@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Muli');
+
+@media screen and (max-width: 800px) and (min-width: 300px){
+    body {
+        background-color: black;
+    }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+h1 {
+  font-family: 'Muli', sans-serif;
+}
+
+.main {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px;
+  font-family: 'Lobster Two', cursive;
+}
+
+p {
+  margin: 0 auto;
+  padding: 5px 20px;
+  font-family: 'Muli', sans-serif;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: blue;
+}
+
+.main img {
+  display: flex;
+  border: 2px solid seashell;
+  border-radius: 50px;
+  box-shadow: 5px 10px gray;
+  padding: 0;
+  margin: 15px auto;
+  height: 30%;
+  width: 30%;
+  object-fit: cover;
+}
+
+.navbar {
+    display: flex;
+    overflow: hidden;
+    background: rgba(150, 100, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding: 7px;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    display: flex;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navbar a:hover{
+    background: white;
+    color: black;
+}
+
+ul, ol {
+  color: gray;
+  text-align: left;
+}
+
+form {
+  border: 10px solid gray;
+  background-color: white;
+  padding: 25px;
+  width: 50%;
+  margin: 50px auto;
+  color: black;
+}
+
+input, textarea {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}
